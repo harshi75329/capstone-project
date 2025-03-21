@@ -1,0 +1,103 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Employee One",
+      "email": "employee1@example.com",
+      "password": "password",
+      "role": "user"
+    },
+    {
+      "id": "2",
+      "name": "Admin One",
+      "email": "admin@example.com",
+      "password": "admin",
+      "role": "admin"
+    },
+    {
+      "id": "3",
+      "name": "Employee Two",
+      "email": "employee2@example.com",
+      "password": "password",
+      "role": "user"
+    },
+    {
+      "id": "4da1",
+      "name": "empoyee three",
+      "email": "employee3@example.com",
+      "password": "password",
+      "role": "user"
+    },
+    {
+      "id": "a4b5",
+      "name": "empoyee four",
+      "email": "employee4@example.com",
+      "password": "password",
+      "role": "user"
+    }
+  ],
+  "scrumTeams": [
+    {
+      "id": "1",
+      "name": "Scrum Team A",
+      "tasks": [
+        {
+          "id": 1,
+          "title": "Task One",
+          "description": "Description for Task One",
+          "status": "In Progress",
+          "assignedTo": 1
+        }
+      ],
+      "users": [
+        1
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Scrum Team B",
+      "tasks": [
+        {
+          "id": 2,
+          "title": "Task Two",
+          "description": "Description for Task Two",
+          "status": "In Progress",
+          "assignedTo": 3
+        }
+      ],
+      "users": [
+        3
+      ]
+    },
+    {
+      "id": "e580",
+      "name": "Scrum Team C",
+      "tasks": [
+        {
+          "title": "Task C Title",
+          "description": "Task C description",
+          "status": "To Do",
+          "assignedTo": "4da1"
+        }
+      ],
+      "users": [
+        "4da1"
+      ]
+    },
+    {
+      "id": "5fad",
+      "name": "Scrum Team D",
+      "tasks": [
+        {
+          "title": "Team D title",
+          "description": "Task D description",
+          "status": "To Do",
+          "assignedTo": "a4b5"
+        }
+      ],
+      "users": [
+        "a4b5"
+      ]
+    }
+  ]
+}
